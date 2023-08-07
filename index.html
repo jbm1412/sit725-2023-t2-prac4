@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+		<head>
+			<meta charset="UTF-8">
+        	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+        	<meta name="author" content="Manonarayanan J B">
+        	<meta name="description" content="SIT725 Week 4">
+        	<meta property="og:title" content="SIT725 T2 2023 Prac4">
+        	<meta property="og:type" content="website">
+        	<meta property="og:description" content="Database">
+        	<title> Task 4.2 - Add Database </title>
+			<!-- Materialize Link -->
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+			<!-- Materialize Icon Link -->
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+			<!-- CSS -->
+			<link href="style.css" rel="stylesheet">
+		</head>
+		<body class="black">
+		<nav>
+			<div class="nav-wrapper green">
+                <a target="_blank" href="https://www.deakin.edu.au/"><img src="pics/deakin-logo-round.png" class="deakin-logo"></a> 
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <p class="flow-text" id="navtext">SIT725 Task 4.2</p>
+                </ul>
+            </div>
+		</nav>
+		<main class="main-body">
+			<div class="container">
+                <h1 class="white-text center">About Myself</h1>
+                <p class="white-text flow-text center"> My name is Manonarayanan Janardhan Bhagavathi (Mano). I was born in India and brought up in Oman. I'm currently studying Masters in Information Technology at Deakin University in Burwood, Victoria, Australia.</p>
+                <br>
+                <div class="col s12 center-align">
+                    <img class="materialboxed materialboxed-image" src="pics/20230308_130544.jpg" id="bldg-lc">    
+                </div>
+            </div>
+            <br>
+            <br>
+			<div class="col s12 center-align">
+				<a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Wanna Add Your Favourite Food?</a>
+			</div>
+			<br>
+			<div class="row" id="card-section">
+					
+			</div>
+			</div>
+			<div id="modal1" class="modal modal-fixed-footer black">
+				<div class="row modal-content black">
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field col s6">
+								<input id="title" type="text" class="validate white-text">
+								<label for="title">Title</label>
+							</div>
+							<div class="input-field col s6">
+								<input id="subtitle" type="text" class="validate white-text">
+								<label for="subtitle">Subtitle</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="path"  type="text" class="validate white-text">
+								<label for="path">Path</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="description" type="text" class="validate white-text">
+								<label for="description">Description</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12 center-align">
+								<a class="waves-effect waves-light btn" id="submitForm">submit</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer>
+            <div>
+                <p class="white-text green page-footer" style="bottom: 0px; width: 100%;" id="foot">Copyright &copy; 2023 Manonaryanan J B (223068757).</p>
+            </div>
+        </footer>
+		<!-- JavaScript File -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+nav{
+    height: 80px;
+}
+
+nav p{
+    margin: auto;
+}
+
+.deakin-logo{
+    height: 75px;
+}
+
+#bldg-lc{
+    height: 500px;
+    width: 1000px;
+}
+
+#food{
+    height: 250px
+}
+
+#foot{
+    text-align: center;
+    font-size: 1.4em;
+    margin: auto;
+}
